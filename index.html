@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Self-Development Hub</title>
+    <link rel="icon" type="image/jpeg" href="img/favicon.jpeg">
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Self-Development Hub</h1>
+        <p>Grow in every aspect of life!</p>
+    </header>
+
+    <!-- Responsive Navigation -->
+    <nav>
+        <div class="menu-icon" onclick="toggleMenu()">☰</div>  <!-- Hamburger Icon -->
+        <ul class="nav-links">
+            <li><a href="#finance">💰 Financial Literacy</a></li>
+            <li><a href="#mental-health">🧘 Mental Wellness</a></li>
+            <li><a href="#motivation">🔥 Motivation</a></li>
+            <li><a href="#quotes-jokes">😂 Quotes & Jokes</a></li>
+            <li><a href="#entrepreneurship">🚀 Entrepreneurship</a></li>
+            <li><a href="#fitness">🏋️ Physical Health & Fitness</a></li>
+        </ul>
+    </nav>
+
+    <section id="finance" class="content">
+        <h2>💰 Financial Literacy</h2>
+        <button onclick="showFinanceTip()">Get a Money Tip 💵</button>
+        <p id="finance-tip"></p>
+    </section>
+
+    <section id="mental-health" class="content">
+        <h2>🧘 Mental Health & Wellness</h2>
+        <button onclick="showWellnessTip()">Daily Wellness Tip 🌿</button>
+        <p id="wellness-tip"></p>
+    </section>
+
+    <section id="motivation" class="content">
+        <h2>🔥 Motivation</h2>
+        <button onclick="showMotivation()">Inspire Me ✨</button>
+        <p id="motivation-text"></p>
+    </section>
+
+    <section id="quotes-jokes" class="content">
+        <h2>😂 Quotes & Funny Jokes</h2>
+        <button onclick="showQuote()">Get a Quote 💡</button>
+        <button onclick="showJoke()">Tell me a Joke 🤣</button>
+        <p id="quote-text"></p>
+        <p id="joke-text"></p>
+    </section>
+
+    <section id="entrepreneurship" class="content">
+        <h2>🚀 Entrepreneurship</h2>
+        <button onclick="showBusinessTip()">Business Tip 💼</button>
+        <p id="business-tip"></p>
+    </section>
+
+    <section id="fitness" class="content">
+        <h2>🏋️ Physical Health & Fitness</h2>
+        <p>Stay active with daily exercise tips and routines!</p>
+        <button onclick="showFitnessWorkout()">Get a Fitness Tip 💪</button>
+        <p id="fitness-tip"></p>
+    </section>
+    
+    <footer>
+        <p>© 2025 Self-Development Hub. Keep growing! 🌱</p>
+    </footer>
+
+</body>
+</html>
