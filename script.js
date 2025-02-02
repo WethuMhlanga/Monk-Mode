@@ -394,7 +394,7 @@ function showBusinessTip() {
 function showFitnessWorkout() {
     const weeklyWorkouts = {
         "Monday": [
-            "Do 20 push-ups for upper body strength!",
+            "Do 40 push-ups for upper body strength!",
             "Try 30 squats to strengthen your legs!",
             "Hold a 1-minute plank for core endurance!",
             "Jump rope for 2 minutes for cardio fitness!",
@@ -408,29 +408,29 @@ function showFitnessWorkout() {
             "Hold a wall sit for 1 minute!"
         ],
         "Wednesday": [
-            "Do 15 push-ups!",
+            "Do 40 push-ups!",
             "Hold a 30-second side plank on each side!",
             "Do 20 leg raises for core strength!",
             "Perform 30 seconds of high knees!",
             "Try 10 tricep dips!"
         ],
         "Thursday": [
-            "Perform 20 squats!",
+            "Perform 40 squats!",
             "Do 10 burpees!",
             "Hold a plank for 1 minute!",
             "Try 20 walking lunges per leg!",
-            "Do 15 jumping jacks!"
+            "Do 100 jumping jacks!"
         ],
         "Friday": [
-            "Do 15 push-ups!",
+            "Do 40 push-ups!",
             "Try 30 seconds of plank to push-up!",
             "Run for 15 minutes!",
             "Perform 20 bicycle crunches!",
             "Do 20 step-ups per leg!"
         ],
         "Saturday": [
-            "Do 20 squats!",
-            "Try 20 calf raises!",
+            "Do 40 squats!",
+            "Try 30 calf raises!",
             "Perform 30 seconds of squat pulses!",
             "Hold a 1-minute plank!",
             "Do 20 burpees!"
@@ -440,7 +440,7 @@ function showFitnessWorkout() {
             "Stretch for 10-15 minutes to improve flexibility!",
             "Do 10 minutes of yoga!",
             "Hold a 1-minute plank!",
-            "Do 15 push-ups!"
+            "Do 40 push-ups!"
         ]
     };
 
